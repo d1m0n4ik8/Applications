@@ -1,0 +1,36 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   max-width: 100%;
+   overflow: hidden;
+}
+
+#generateButton {
+   height: 5vh;
+   background-color: green;
+   color: white;
+   cursor: pointer;
+   text-align: center;
+   font-size: 24px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+#interactivePanel {
+   position: relative;
+   height: 95vh;
+}
+
+.interactiveElement {
+   position: absolute;
+   width: 75px;
+   height: 75px;
+}
+.interactiveElement:hover {
+   cursor: grab;
+}
